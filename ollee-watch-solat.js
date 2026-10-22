@@ -53,54 +53,9 @@ function displayCurrentPrayer() {
 
 function checkAndComputeTimes() {
     // 1. Fetch live metrics from hardware environment parameters
-    /*const lat = Ollee.latitude() || 5.33;   
-    const lon = Ollee.longitude() || 103.14; 
+    const lat = Ollee.latitude();   
+    const lon = Ollee.longitude(); 
     const timeZoneOffset = Ollee.tz_offset;
-    */
-    
-    // temp:
-    // --- PROFILE SELECTION ---
-    /* CANBERRA (Southern Hemisphere)
-    const lat = -35.282;
-    const lon = 149.129;
-    const timeZoneOffset = 11;
-    */
-
-    /* TORONTO (Northern Hemisphere)
-    const lat = 43.651070;
-    const lon = -79.347015;
-    const timeZoneOffset = -4;
-    */
-
-    /* KT
-    const lat = 5.33;   
-    const lon = 103.14; 
-    const timeZoneOffset = 8;
-    */
-
-    /* KMM
-    const lat = 4.2338;   
-    const lon = 103.3638; 
-    const timeZoneOffset = 8;
-    */
-
-    /* Putrajaya
-    const lat = 2.9264;   
-    const lon = 101.6964; 
-    const timeZoneOffset = 8;
-    */
-
-    /*makkah
-    const lat = 21.4225;
-    const lon = 39.8262;
-    const timeZoneOffset = 3;
-    */
-
-    // los angeles
-    const lat = 34.052235;
-    const lon = -118.243683;
-    const timeZoneOffset = -7;
-    
 
     const now = new Date();
     const start = new Date(now.getFullYear(), 0, 0);
