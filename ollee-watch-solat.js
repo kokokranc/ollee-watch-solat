@@ -2,7 +2,7 @@
 const subscribe = E_A_SHORT + E_L_SHORT + E_CLOCK_HOUR;
 
 // State management variables - RAM caching system
-const P_TAGS = ["FJ", "RI", "DH", "AS ", "1N", "IS"];
+const P_TAGS = ["FJ", "RI", "DH", "AS ", "1N", "IS"]; // FJ=Fajr, RI=sunrise, dh=Dhuhr, AS=Asr, 1N=Maghrib, IS=Isha'
 const cachedTimes = ["0000", "0000", "0000", "0000", "0000", "0000"];
 let currentPrayerIdx = 0;
 
