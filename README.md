@@ -20,7 +20,6 @@ Ollee forge script to calculate daily islamic prayer times. This face for the Ol
 
 صَلَاةُ الْجَمَاعَةِ تَفْضُلُ صَلَاةَ الْفَذِّ بِسَبْعٍ وَعِشْرِينَ دَرَجَةً
 
-
 "The prayer in congregation is twenty-seven times superior to the prayer offered by a person alone."
 
 
